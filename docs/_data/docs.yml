@@ -1,11 +1,21 @@
-- title: Getting Started
+- title: Intro
   docs:
-  - home
-  - themes
-  - customization
+  - whats_kafka
+  - why_goka
+  - getting_started
 
-- title: Examples
+- title: Basic Concepts
   docs:
-  - cheatsheet
-  - font-awesome
-  - bootstrap
+  - building_blocks
+  - local_storage
+  - joins_loops_lookups
+  - monitoring
+
+# - title: Cookbook
+#   docs:
+#   - 'High Availability: reconnecting Views'
+#   - view-backed custom datastructure
+#   - ErrorGroups
+#   - Global vs Local Configuration
+#   - Partitioning and Hashing
+

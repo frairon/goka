@@ -1,12 +1,11 @@
 # Site settings
-title: Goka Stream Processing
+title: Goka
 email: your-email@domain.com
 description: >
-  Jekyll Template for Project Websites
-  providing documentation and blog post pages.
+  Stream Processing Applications that simply work.
 lang: en-US
 
-baseurl: "/" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 git_address: https://github.com/lovoo/goka
 git_edit_address: https://github.com/lovoo/goka/blob/_docs_
@@ -42,6 +41,13 @@ defaults:
     sectionid: blog
 
 - scope:
+    path: _tutorial
+    type: docs
+  values:
+    layout: page
+    sectionid: tutorial
+
+- scope:
     path: _docs
     type: docs
   values:
@@ -54,6 +60,6 @@ collections:
   docs:
     permalink: /:collection/:path/
     output: true
-  posts:
-    permalink: /blog/:year/:month/:day/:title/
-    output: true
+  # posts:
+    # permalink: /blog/:year/:month/:day/:title/
+    # output: true
