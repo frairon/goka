@@ -6,13 +6,13 @@ layout: default
   <div class="container">
     <h1>Goka Stream Processing</h1>
     <p>Developing stream processing applications with goka makes your live easier.</p>
-    <p><a class="btn btn-primary btn-lg" href="{{ " /docs/home/ " | relative_url }}" role="button">Learn more</a></p>
+    <p><a class="btn btn-primary btn-lg" href="{{ "/docs/home/" | relative_url }}" role="button">Learn more</a></p>
   </div>
 </div>
 
 <div class="container">
   <div class="row">
-    <div class="col-md-6">
+    <div class="col-md-8">
       <h2 class="header-light regular-pad">What is Goka?</h2>
       <p class="lead">
         Goka is a compact yet powerful distributed stream processing library for Apache Kafka written in Go. Goka aims to reduce the complexity of building highly scalable and highly available microservices. Goka extends the concept of Kafka consumer groups by
@@ -24,6 +24,8 @@ layout: default
         </div> -->
   </div>
   <hr>
+  <p><a class="btn btn-primary btn-lg" href="{{ "/docs/getting_started/" | relative_url }}" role="button">Get Started</a></p>
+  {% comment %}
   <div class="row">
     <div class="col-sm-4">
       <h1 class="text-center"><i class="fa fa-pencil" aria-hidden="true"></i></h1>
@@ -43,4 +45,5 @@ layout: default
       <p>Leverage from Git version control system by maintaining your documentation along with the source code; publish the page when you merge to the master branch.</p>
     </div>
   </div>
+  {%endcomment%}
 </div>
