@@ -5,14 +5,14 @@ permalink: /docs/getting_started/
 
 
 Goka is a library, if you just want to use it, add it to your project with
-```shell
+```bash
 $ go get -u github.com/lovoo/goka
 ```
 
 
 If you are new to goka, best clone the repo to check out the examples. They come with a ready-to-go kafka-cluster using `docker-compose`.
 
-```
+```bash
 cd $GOPATH/src
 mkdir -p github.com/lovoo/
 cd github.com/lovoo/
@@ -42,7 +42,7 @@ Goka relies on [Sarama](https://github.com/Shopify/sarama) to perform the actual
 
 In most cases, you need to modify the config, e.g. to set the Kafka Version.
 
-```go
+```golang
 cfg := goka.DefaultConfig()
 cfg.Version = sarama.V2_4_0_0
 goka.ReplaceGlobalConfig(cfg)
