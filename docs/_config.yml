@@ -5,7 +5,7 @@ description: >
   Stream Processing Applications that simply work.
 lang: en-US
 
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/goka/" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 git_address: https://github.com/lovoo/goka
 git_edit_address: https://github.com/lovoo/goka/blob/_docs_
