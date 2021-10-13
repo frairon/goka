@@ -1,6 +1,7 @@
 ---
 title: "Getting started"
 permalink: /docs/getting_started/
+redirect_from: /docs/index.html
 ---
 
 

@@ -1,21 +1,22 @@
 - title: Intro
   docs:
+  - getting_started
   - whats_kafka
   - why_goka
-  - getting_started
 
-- title: Basic Concepts
+- title: Guide
   docs:
   - building_blocks
   - local_storage
   - joins_loops_lookups
   - monitoring
+  - consistency
 
-# - title: Cookbook
-#   docs:
-#   - 'High Availability: reconnecting Views'
-#   - view-backed custom datastructure
-#   - ErrorGroups
-#   - Global vs Local Configuration
-#   - Partitioning and Hashing
+- title: Cookbook
+  docs:
+  - reconnecting_views
+  - custom_datastructures
+  - configuration
+  - partitioning_hashing
+  - hot_failover
 

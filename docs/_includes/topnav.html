@@ -13,8 +13,8 @@
     </div>
     <div id="navbar" class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
-        <li {% if page.sectionid=='tutorial' %} class="active" {% endif %}><a href="{{ "/tutorial" | relative_url }}">Tutorial</a></li>
-        <li {% if page.sectionid=='docs' %} class="active" {% endif %}><a href="{{ "/docs/home/" | relative_url }}">Docs</a></li>
+        <li {% if page.sectionid=='tutorial' %} class="active" {% endif %}><a href="{{ "/tutorial/" | relative_url }}">Tutorial</a></li>
+        <li {% if page.sectionid=='docs' %} class="active" {% endif %}><a href="{{ "/docs/getting_started/" | relative_url }}">Docs</a></li>
       </ul>
       <div class="navbar-right">
         <form class="navbar-form navbar-left">
@@ -25,6 +25,7 @@
         </form>
         <ul class="nav navbar-nav">
           <li><a href="{{ site.git_address }}"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+          <li><a target="_blank" href="https://pkg.go.dev/github.com/lovoo/goka"><img src="https://pkg.go.dev/badge/github.com/lovoo/goka.svg" alt="Go Reference"></a></li>
         </ul>
       </div>
     </div>
